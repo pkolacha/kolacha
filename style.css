@@ -13,7 +13,7 @@
 }
 
 
-/* ===== Colours ===== */
+
 :root{
     --body-color: #E4E9F7;
     --nav-color: #CCC;
@@ -361,7 +361,7 @@ nav .nav-bar .logo-nav a{
     width: 40%;
 }
 .skills__php {
-    width: 5%;
+    width: 15%;
 }
 .skills__percentage{
     color: var(--text-color);
@@ -378,6 +378,15 @@ nav .nav-bar .logo-nav a{
     letter-spacing: .3rem;
 }
 /* services */
+.service-info{
+    margin-bottom: 1.5rem;
+}
+
+.service-text{
+    text-align: center;
+    letter-spacing: .15rem;
+}
+
 .services-section{
     background: var(--body-color);
     padding: 60px 0;
