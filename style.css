@@ -380,11 +380,15 @@ nav .nav-bar .logo-nav a{
 /* services */
 .service-info{
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-text{
-    text-align: center;
+    text-align:center;
     letter-spacing: .15rem;
+    width: 80%;
 }
 
 .services-section{
@@ -408,7 +412,7 @@ nav .nav-bar .logo-nav a{
 }
 
 .service-box{
-    max-width: 33.33%;
+    width: 33.33%;
     padding: 10px;
     text-align: center;
     color: var(--text-color);
@@ -453,7 +457,7 @@ nav .nav-bar .logo-nav a{
 
 @media screen and (max-width: 960px){
     .service-box{
-        max-width: 45%;
+        width: 45%;
     }
     .services-section{
         margin-top: 5rem;
@@ -464,7 +468,7 @@ nav .nav-bar .logo-nav a{
 }
 @media screen and (max-width: 480px){
     .service-box{
-        max-width: 100%;
+        width: 100%;
     }
     .services-section{
         margin-top: 20rem;
