@@ -121,6 +121,12 @@ nav .nav-bar .logo-nav a{
     padding: 10px;
 }
 
+.nav-links li i{
+    font-size: 35px;
+    color: #Dc005A;
+    margin-top: 6rem;
+}
+
 .nav-links .none{
     display: none;
 }
