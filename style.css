@@ -224,12 +224,12 @@ nav .nav-bar .logo-nav a{
 #hero{
     height: 92vh;
     margin-top: 8vh;
-    /* background-image: url(./images/me.jpg); */
+	position: relative;
+    /* background-image: url(./images/me.jpg); 
 	background-size: 70rem;
     background-repeat: no-repeat;
     background-position-y: 95%;
-	background-position-x: center;
-	position: relative;
+	background-position-x: center; */
 }
 
 .short-about{
@@ -242,7 +242,7 @@ nav .nav-bar .logo-nav a{
     text-shadow: 3px 3px 5px black;
     text-align: center;
     letter-spacing: .3rem;
-    /* box-shadow: 0px 15px 10px -15px #fff; */
+    box-shadow: 0px 15px 10px -15px var(--text-color);
 }
 
 .industry {
@@ -809,19 +809,6 @@ footer .footer-icons i:hover{
     color: #333;
 }
 
-/* .popup button{
-    width: 100%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background: #6fd649;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-} */
 
 @media screen and (max-width:1023px){
     .about-section{
