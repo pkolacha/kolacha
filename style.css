@@ -754,21 +754,6 @@ footer .footer-icons i:hover{
     transform: scale(1.2);
 }
 
-
-.created{
-    width: 100%;
-    font-size: 1.1rem;
-    margin-top: 6rem;
-    margin-bottom: .6rem;
-    text-align: center;
-    background: var(--body-color);
-    color: var(--text-color);
-    letter-spacing: .25rem;
-}
-.created span{
-    font-size: 1.1rem;
-}
-
 .popup{
     width: 400px;
     background: #fff;
@@ -836,9 +821,6 @@ footer .footer-icons i:hover{
       }
     .skills__data{
         background-color: var(--span-color);
-    }
-    .window .full-img{
-        width: 80%;
     }
     .container{
         width: 90%;
@@ -1024,8 +1006,5 @@ footer .footer-icons i:hover{
         letter-spacing: .1rem;
         font-size: 1.2rem;
         margin-top: 2.6rem;
-    }
-    .created{
-        margin-top: 10rem;
     }
 }
