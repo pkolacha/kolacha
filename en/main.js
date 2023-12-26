@@ -53,7 +53,7 @@ document.onload = () => {
     }else{
         document.querySelector('.header').classList.remove('active');
     }
-}
+} 
 
 let popup = document.getElementById("popup")
     function openPopup(){
