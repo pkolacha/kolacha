@@ -563,6 +563,9 @@ nav .nav-bar .logo-nav a{
 .portfolio__img img{
     border-radius: .5rem;
 }
+.portfolio__img:nth-child(2) img{
+    height: 300px;
+}
 .portfolio__link{
     position: absolute;
     bottom: -100%;
