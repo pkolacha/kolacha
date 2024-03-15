@@ -554,17 +554,21 @@ nav .nav-bar .logo-nav a{
 }
 .portfolio__container{
     justify-items: center;
-    row-gap: 2rem;
+    /* display: flex; */
 }
 .portfolio__img{
     position: relative;
     overflow: hidden;
+
 }
 .portfolio__img img{
     border-radius: .5rem;
 }
-.portfolio__img:nth-child(2) img{
-    height: 300px;
+.portfolio__img:nth-child(2){
+    margin: auto 2rem;
+}
+.portfolio__img img{
+height: 200px;
 }
 .portfolio__link{
     position: absolute;
@@ -834,6 +838,9 @@ footer .footer-icons i:hover{
        width: 75%;
        margin-left: 55px;
     }
+    .portfolio__img:nth-child(2){
+        margin: 3rem auto;
+    }
     footer{
         margin-top: 4rem;
     }
@@ -852,7 +859,7 @@ footer .footer-icons i:hover{
 }
 @media screen and (min-width: 768px){
     .portfolio__container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 1fr);
         column-gap: 2rem;
     }
