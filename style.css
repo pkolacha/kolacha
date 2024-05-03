@@ -567,6 +567,7 @@ nav .nav-bar .logo-nav a{
 .portfolio__img:nth-child(2){
     margin: auto 2rem;
 }
+
 .portfolio__img img{
 height: 200px;
 }
