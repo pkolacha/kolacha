@@ -253,7 +253,7 @@ nav .nav-bar .logo-nav a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--text-color);
-    text-shadow: 10px 10px 5px black;
+    text-shadow: 5px 5px 5px black;
     z-index: -1;
     text-align: center;
     letter-spacing: 1.5rem;
@@ -273,7 +273,7 @@ nav .nav-bar .logo-nav a{
     font-size: 1.2rem;
 
     color: var(--text-color);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px black;
     text-align: center;
     letter-spacing: .3rem;
 }
@@ -582,7 +582,7 @@ height: 200px;
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
-    transition: .3s;
+    transition: .5s;
 }
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
